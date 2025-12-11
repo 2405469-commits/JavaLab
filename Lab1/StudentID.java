@@ -1,3 +1,5 @@
+package Lab1;
+
 import java.util.Scanner;
 public class StudentID {
     public static void main(String[] args){
@@ -15,6 +17,11 @@ public class StudentID {
         System.out.print("Enter Section: CSE-");
         int section=sc.nextInt();
 
+        System.out.print("Enter Marks Secured:");
+        double i=sc.nextInt();
+
         System.out.println("\nName:"+name+"\nRoll no:"+roll+"\nSection:"+section+"\nBranch:"+branch);
+        System.out.print("Achived: ");
+        Grade o1=new Grade(i);
     }
 }
