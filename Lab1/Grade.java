@@ -24,7 +24,7 @@ public class Grade {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter Marks scored:");
+        System.out.print("Enter Marks :");
         double i = sc.nextDouble();
         Grade o1=new Grade(i);
 
