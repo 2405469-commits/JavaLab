@@ -26,6 +26,6 @@ public class AreaOfRec {
         System.out.print("Enter Length:");
         double b=sc.nextDouble();
         AreaOfRec o1=new AreaOfRec(l,b);
-        System.out.println("Length:"+l+"\nBreadth:"+b+"\nArea:"+o1.area);
+        System.out.println("Length:"+l+"\nBreadth:"+b+"\nArea of Rectangle:"+o1.area);
     }
 }
