@@ -12,4 +12,3 @@ public class SubtractDemo {
         obj.subtract(12.75, 2);        // double - int
     }
 }
-
