@@ -1,5 +1,5 @@
 package Lab2;
-
+//Q3 p2
 import java.util.Scanner;
 
 public class Demo{

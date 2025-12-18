@@ -1,5 +1,5 @@
 package Lab2;
-
+//Q1
 public class EvenOdd {
     public static void main(String[] args) {
 

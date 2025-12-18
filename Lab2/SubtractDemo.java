@@ -1,4 +1,5 @@
 package Lab2;
+//Question 6
 
 public class SubtractDemo {
     public static void main(String[] args) {

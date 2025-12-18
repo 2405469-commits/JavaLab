@@ -1,5 +1,5 @@
 package Lab2;
-
+//Q5
 import java.util.Scanner;
 
 public class LowGPA {

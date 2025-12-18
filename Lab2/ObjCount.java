@@ -1,5 +1,5 @@
 package Lab2;
-
+//Q2
 public class ObjCount {
     static int count=0;
     static int len,bre,hei;

@@ -1,4 +1,5 @@
 package Lab2;
+//Question 6
 
 public class Calculator {
 

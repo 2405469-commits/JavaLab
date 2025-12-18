@@ -1,5 +1,5 @@
 package Lab2;
-
+//Q3 p1
 public class box {
 
     double length,breadth,height;

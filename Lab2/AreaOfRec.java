@@ -1,6 +1,6 @@
 package Lab2;
+//Q7
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class AreaOfRec {
