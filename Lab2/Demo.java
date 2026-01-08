@@ -1,6 +1,21 @@
 package Lab2;
-//Q3 p2
+//Q3
 import java.util.Scanner;
+
+class box {
+
+    double length,breadth,height;
+    public box(double l, double b, double h) {
+        length=l;
+        breadth=b;
+        height=h;
+    }
+
+    double volume()
+    {
+        return length*breadth*height;
+    }
+}
 
 public class Demo{
 

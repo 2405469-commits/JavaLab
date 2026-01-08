@@ -1,18 +1,18 @@
 package Lab3;
 //Q3
-class Fruit {
+class Apple {
     void show() {
-        System.out.println("This is a fruit");
+        System.out.println("This is an apple");
     }
 }
 
-class Banana extends Fruit {
+class Banana extends Apple {
     void show() {
         System.out.println("This is a banana");
     }
 }
 
-class Cherry extends Fruit {
+class Cherry extends Apple {
     void show() {
         System.out.println("This is a cherry");
     }
@@ -20,11 +20,11 @@ class Cherry extends Fruit {
 
 public class FruitDemo {
     public static void main(String[] args) {
-        Fruit f = new Fruit();
+        Apple a = new Apple();
         Banana b = new Banana();
         Cherry c = new Cherry();
 
-        f.show();
+        a.show();
         b.show();
         c.show();
     }
