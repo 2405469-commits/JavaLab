@@ -49,10 +49,7 @@ class Account
 
 class Standard extends Account
 {
-    Standard(char acc_type, double balance, int date, int month, int year)
-    {
-        super(acc_type, balance, date, month, year);
-    }
+
 
     void withdraw(double amo)
     {
