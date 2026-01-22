@@ -34,8 +34,6 @@ public class StudentEqualsDemo
 
         studentinfo s1=new studentinfo(r1,n1);
         studentinfo s2=new studentinfo(r2,n2);
-        s1.name= s2.name;
-        s1.rollno= s2.rollno;
         if(s1.equals(s2))
             System.out.println("Both students are equal");
         else

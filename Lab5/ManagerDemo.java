@@ -1,8 +1,6 @@
 package Lab5;
 
-
 import java.util.Scanner;
-
 
 interface Salary {
     void earnings();
@@ -10,9 +8,8 @@ interface Salary {
     void bonus();
 }
 
-
 class Manager implements Salary{
-    double bs,er,ded,bo,DA,HRA;
+    double bs,er,ded,DA,HRA;
     Manager(double bs){
         this.bs=bs;
         DA=bs*0.8;
@@ -23,18 +20,15 @@ class Manager implements Salary{
         System.out.println("Earnings:"+er);
     }
 
-
     public void deductions(){
         ded=bs*0.12;
         System.out.println("Deductions:"+ded);
     }
 
-
     public void bonus() {
         //Override from Substaff
     }
 }
-
 
 class Substaff extends Manager{
     double bo;
@@ -45,10 +39,7 @@ class Substaff extends Manager{
     public void bonus(){
         System.out.println("Bonus:"+bo);
     }
-
-
 }
-
 
 public class ManagerDemo {
     public static void main(String[] args){

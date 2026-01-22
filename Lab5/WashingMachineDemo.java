@@ -1,12 +1,10 @@
 package Lab5;
 
-
 interface motor{
     int CAPACITY=15;
     void run();
     void consume();
 }
-
 
 class WashingMachine implements motor{
     public void run(){
@@ -16,7 +14,6 @@ class WashingMachine implements motor{
         System.out.println("Power consuming");
     }
 }
-
 
 public class WashingMachineDemo {
     public static void main(String[] args){

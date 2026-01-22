@@ -1,24 +1,17 @@
 package Lab5;
 import java.util.Scanner;
 
-
 interface Employee{
 
 
     void getDetails();
 }
 
-
 interface manager1 extends Employee{
     void getDeptDetails();
 }
 
-
 class Head implements manager1{
-
-
-
-
     int Empid,Deptid;
     String Ename,Deptname;
     Head(){
@@ -36,7 +29,6 @@ class Head implements manager1{
         Ename= sc.nextLine();
     }
 
-
     public void getDeptDetails() {
 
 
@@ -47,9 +39,7 @@ class Head implements manager1{
         Deptname= sc.nextLine();
     }
 
-
 }
-
 
 public class HeadDemo {
     public static void main(String[] args){
