@@ -12,8 +12,8 @@ public class Employee {
         DA=bs*0.8;
         HRA=bs*0.15;
     }
-    public void earnings(){
+    public double earnings(){
         double earning=bs+DA+HRA;
-        System.out.println("Total Earning:"+earning);
+        return earning;
     }
 }

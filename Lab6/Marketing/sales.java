@@ -20,7 +20,8 @@ public class sales extends Employee{
         double bs= sc.nextInt();
         sales s=new sales(bs);
         s.earnings();
-        System.out.println("Employee ID:"+id);
+        System.out.println("\nEmployee ID:"+id);
+        System.out.println("Total Earning:"+s.earnings());
     }
 }
 
