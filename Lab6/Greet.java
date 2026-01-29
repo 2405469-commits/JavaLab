@@ -13,7 +13,6 @@ public class Greet {
                 System.out.println("Hello World!");
             }
         };
-
         g.sayHello();
     }
 }
