@@ -37,7 +37,5 @@ public class ProcessNumber {
         catch (NegativeNumberException e) {
             System.out.println("Caught " + e);
         }
-
-        sc.close();
     }
 }

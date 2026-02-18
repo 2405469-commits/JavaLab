@@ -76,7 +76,5 @@ public class Time {
                 System.out.println("Exception occurred:  " + e);
             }
         }
-
-        sc.close();
     }
 }
