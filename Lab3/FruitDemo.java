@@ -18,7 +18,7 @@ class Cherry extends Apple {
     }
 }
 
-public class FruitDemo {
+public class FruitDemo extends Cherry{
     public static void main(String[] args) {
         Apple a = new Apple();
         Banana b = new Banana();

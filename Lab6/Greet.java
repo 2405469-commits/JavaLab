@@ -10,7 +10,7 @@ public class Greet {
 
         Greeting g = new Greeting() {
             public void sayHello() {
-                System.out.println("Hello World!");
+                System.out.println("1 World!");
             }
         };
         g.sayHello();
